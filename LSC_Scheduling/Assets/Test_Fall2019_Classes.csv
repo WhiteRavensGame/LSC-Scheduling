@@ -1,0 +1,83 @@
+﻿Course number,Registrations,Number,Course title,Schedule,Teachers,Discipline,Status,Semester,Minimum number of students,Acceptable maximum number of students,Limit maximum number of students,Hours scheduled
+CCM431,1,10001,Mentor Studio,Thu 18:30 to 22:30,"Brodin, S. (3294)",CCM - Common Courses Media,1 - Open,F-2019,0,24,24,4
+CUL207,2,10001,Artisan Breads & Baking Production,"Mon 07:00 to 12:00, Tue 07:00 to 12:00","Massincaud, P. (1288)",CUL - Culinary,1 - Open,F-2019,0,18,18,10
+CUL202,2,10001,European Cakes & Tortes,Wed 07:00 to 12:00,"Schastlivenko, A. (3272)",CUL - Culinary,1 - Open,F-2019,0,18,18,5
+CC112,3,81113,Fundamentals of Design,Wed 18:00 to 19:30,"Adair, A. (3146)",CC - Common Courses,1 - Open,F-2019,0,24,24,1.5
+CCM431,3,10002,Mentor Studio,Thu 13:31 to 17:31,"Pettigrew, C. (3364)",CCM - Common Courses Media,1 - Open,F-2019,0,24,24,4
+CC452,3,10001,Post-Production,Fri 13:30 to 17:30,"Casarini, M. (3182)",VGP - Visual & Game Program.,1 - Open,F-2019,0,24,24,4
+ART110,3,10001,History and Analysis of Design,Tue 08:30 to 12:30,"Wang, J. (1756)",LIBST - LIberal Studies,1 - Open,F-2019,0,24,24,4
+CAP499,3,10001,Capstone,Thu 13:30 to 17:30,"Winskell, P. (1060)",RS - Related Studies,1 - Open,F-2019,0,24,24,4
+CUL201,3,10001,Garde Manger,"Thu 13:00 to 18:00, Fri 13:00 to 18:00","Prinsloo, A. (2936)",CUL - Culinary,1 - Open,F-2019,0,18,18,10
+ANI323,3,10003,Final Diploma Capstone,"Wed 08:31 to 12:31, Thu 18:30 to 22:30","Choi, G. (3295); Pettigrew, C. (3364)",AAD - Animation,1 - Open,F-2019,0,24,24,8
+CCM221,3,10001,3D Animation I,Wed 13:30 to 17:30,"Wong, C. (1313)",CCM - Common Courses Media,1 - Open,F-2019,0,24,24,4
+CCM111,3,10002,Design & Colour Theory,Thu 13:30 to 17:30,"Baker, S. (1294)",CCM - Common Courses Media,1 - Open,F-2019,0,24,24,4
+ANI331,3,10001,Vector Animation I,Wed 18:30 to 22:30,"Dennison, B. (1421)",AAD - Animation,1 - Open,F-2019,0,24,24,4
+ANI287,3,10001,Advanced Acting and Performance,Thu 18:30 to 22:30,"Malik, A. (3400)",AAD - Animation,1 - Open,F-2019,0,20,20,4
+ANI217,4,10001,3D Animation Acting & Pantomine,Thu 18:30 to 22:30,"Tsetso, K. (3326)",AAD - Animation,1 - Open,F-2019,0,24,24,4
+ANI277,4,10001,Advanced Body Mechanics,Sat 08:30 to 12:30,"Dvoryankin, D. (2322)",AAD - Animation,1 - Open,F-2019,0,20,20,4
+ANI441,4,10001,Motion Capture,Tue 18:30 to 22:30,"Martinez, J. (3115)",AAD - Animation,1 - Open,F-2019,0,24,24,4
+CC133,4,81115,Digital Imaging,Mon 19:30 to 21:00,"Askey, D. (1561)",CC - Common Courses,1 - Open,F-2019,0,24,24,1.5
+CC112,4,10002,Fundamentals of Design,Thu 13:30 to 17:30,"Pugh, V. (1745)",CC - Common Courses,1 - Open,F-2019,0,24,24,4
+CC115,4,10002,Colour Theory,Wed 13:30 to 17:30,"Wang, J. (1756)",CC - Common Courses,1 - Open,F-2019,0,24,24,4
+ANI381,5,10001,Vector Animation II,Tue 13:30 to 17:30,"Dennison, B. (1421)",AAD - Animation,1 - Open,F-2019,0,24,24,4
+CCM361,5,10001,Production Team,"Mon 08:30 to 12:30, Thu 08:30 to 12:30","Daniel, D. (1759)",CCM - Common Courses Media,1 - Open,F-2019,0,24,24,8
+ANI322,5,10001,Animation Studio,Thu 13:30 to 17:30,"Schweska, F. (3392)",AAD - Animation,1 - Open,F-2019,0,24,24,4
+CC451,5,10001,Production Team II,"Mon 18:30 to 22:30, Thu 08:30 to 12:30","King, J. (2767); Ross, E. (3259)",VGP - Visual & Game Program.,1 - Open,F-2019,0,24,24,8
+ANI207,5,10001,3D Animation Body & Mechanics,Wed 18:30 to 22:30,"Phan, A. (3202)",AAD - Animation,1 - Open,F-2019,0,24,24,4
+CCM321,5,10001,Preproduction Team,Tue 08:30 to 12:30,"Pettigrew, C. (3364)",CCM - Common Courses Media,1 - Open,F-2019,0,24,24,4
+CCM281,6,10001,CG Lighting & Rendering I,Tue 13:30 to 17:30,"Maher, W. (2844)",CCM - Common Courses Media,1 - Open,F-2019,0,24,24,4
+ANI323,6,10001,Final Diploma Capstone,"Wed 08:30 to 12:30, Thu 13:30 to 17:30","Pettigrew, C. (3364)",AAD - Animation,1 - Open,F-2019,0,24,24,8
+CCM231,6,10001,Materials & Textures I,Wed 18:30 to 22:30,"Buckley, K. (2890)",CCM - Common Courses Media,1 - Open,F-2019,0,20,20,4
+ANI251,6,10001,2D Animation II,Wed 13:30 to 17:30,"Dennison, B. (1421)",AAD - Animation,1 - Open,F-2019,0,24,24,4
+CCM391,7,10001,Script Programming,Mon 18:30 to 22:30,"Deeming, M. (3315)",CCM - Common Courses Media,1 - Open,F-2019,0,24,24,4
+CCM191,7,10001,Life Drawing II,Tue 08:30 to 12:30,"Romain, V. (1014)",CCM - Common Courses Media,1 - Open,F-2019,0,15,15,4
+CCM141,7,10001,Life Drawing I,Thu 13:30 to 17:30,"Turner, C. (1741)",CCM - Common Courses Media,1 - Open,F-2019,0,12,12,4
+CCM311,7,10001,3D Effects,Fri 18:30 to 22:30,"Choi, G. (3295)",CCM - Common Courses Media,1 - Open,F-2019,0,20,20,4
+CUL111,7,10001,North American Regional Cuisine,"Mon 13:00 to 18:00, Tue 13:00 to 18:00","Prinsloo, A. (2936)",CUL - Culinary,1 - Open,F-2019,0,24,24,10
+CC115,7,81114,Colour Theory,Wed 19:30 to 21:00,"Adair, A. (3146)",CC - Common Courses,1 - Open,F-2019,0,24,24,1.5
+CC110,8,10001,Drawing,Tue 08:30 to 12:30,"Torrella, A. (000382)",CC - Common Courses,1 - Open,F-2019,0,24,24,4
+CCM241,8,10001,Life Drawing III,Thu 08:30 to 12:30,"Turner, C. (1741)",CCM - Common Courses Media,1 - Open,F-2019,0,12,12,4
+CC115,8,10001,Colour Theory,Wed 08:30 to 12:30,"Wang, J. (1756)",CC - Common Courses,1 - Open,F-2019,0,24,24,4
+CC110,8,10002,Drawing,Tue 13:30 to 17:30,"Pugh, V. (1745)",CC - Common Courses,1 - Open,F-2019,0,24,24,4
+CCM161,8,10001,Concept Design & Illustration,Wed 08:30 to 12:30,"Turner, C. (1741)",CCM - Common Courses Media,1 - Open,F-2019,0,24,24,4
+CCM271,8,10001,Rigging,Sat 08:30 to 12:30,"Billette, S. (3230)",CCM - Common Courses Media,1 - Open,F-2019,0,24,24,4
+CCM181,9,10001,3D Modeling I,Thu 08:30 to 12:30,"Wong, C. (1313)",CCM - Common Courses Media,1 - Open,F-2019,0,24,24,4
+CC310,9,10001,Preproduction & Project Mngmnt,Thu 08:30 to 12:30,"Rodis, C. (3365)",VGP - Visual & Game Program.,1 - Open,F-2019,0,20,20,4
+CC115E,9,10001,Colour Theory,Tue 13:30 to 17:30,"Baker, S. (1294)",CC - Common Courses,1 - Open,F-2019,0,24,24,4
+CCM411,9,10001,Portfolio II,Tue 18:30 to 22:30,"Buckley, K. (2890)",CCM - Common Courses Media,1 - Open,F-2019,0,24,24,4
+ANI551,10,10001,Creature Animation,Fri 08:30 to 12:30,"Burch, J. (3390)",AAD - Animation,1 - Open,F-2019,0,24,24,4
+ART103,10,10001,History of Art II: From the Early Modern to the Contemporary,Fri 08:30 to 12:30,"Romain, V. (1014)",LIBST - LIberal Studies,1 - Open,F-2019,0,24,24,4
+ART102,10,10001,History of Art I in Early Civilizations,Thu 08:30 to 12:30,"Yurkovich, K. (2687)",LIBST - LIberal Studies,1 - Open,F-2019,0,24,24,4
+CCM292,10,10001,Digital Storyboarding,Mon 18:30 to 22:30,"Phan, A. (3202)",CCM - Common Courses Media,1 - Open,F-2019,0,24,24,4
+CCM371,11,10001,Rigging II,Wed 18:30 to 22:30,"Billette, S. (3230)",CCM - Common Courses Media,1 - Open,F-2019,0,24,24,4
+CC112,11,10001,Fundamentals of Design,Thu 08:30 to 12:30,"Pugh, V. (1745)",CC - Common Courses,1 - Open,F-2019,0,24,24,4
+CC112,11,10003,Fundamentals of Design,Tue 08:30 to 12:30,"Pugh, V. (1745)",CC - Common Courses,1 - Open,F-2019,0,24,24,4
+CUL121,11,10001,Intro to Baking,Mon 13:00 to 18:00,"Vial, M. (3235)",CUL - Culinary,1 - Open,F-2019,0,20,20,5
+CUL105,11,10001,Fundamentals of Classical Techniques,"Thu 06:30 to 11:30, Fri 06:30 to 11:30","Gardiner, G. (1918)",CUL - Culinary,1 - Open,F-2019,0,24,24,10
+CUL122,12,10001,Intro to Pastry,"Tue 13:00 to 18:00, Wed 13:00 to 18:00","Vial, M. (3235)",CUL - Culinary,1 - Open,F-2019,0,18,18,10
+CCM261,12,10001,Portfolio I,Tue 13:30 to 17:30,"Pettigrew, C. (3364)",CCM - Common Courses Media,1 - Open,F-2019,0,20,20,4
+CC115,12,10004,Colour Theory,Fri 08:30 to 12:30,"Baker, S. (1294)",CC - Common Courses,1 - Open,F-2019,0,24,24,4
+CC133,13,10002,Digital Imaging,Thu 13:30 to 17:30,"Torrella, A. (000382)",CC - Common Courses,1 - Open,F-2019,0,24,24,4
+CC115,14,10003,Colour Theory,Thu 08:30 to 12:30,"Wang, J. (1756)",CC - Common Courses,1 - Open,F-2019,0,24,24,4
+CUL105,14,10002,Fundamentals of Classical Techniques,"Tue 07:00 to 12:00, Wed 06:30 to 11:30","Gardiner, G. (1918)",CUL - Culinary,1 - Open,F-2019,0,24,24,10
+COM100,14,10001,Speech Communications,Mon 08:30 to 12:30,"Kis, Y. (3212)",LIBST - LIberal Studies,1 - Open,F-2019,0,24,24,4
+CCM121,14,10002,Digital Imaging I,Fri 08:30 to 12:30,"Convery , A. (3395)",CCM - Common Courses Media,1 - Open,F-2019,0,24,24,4
+CC449,15,10001,Production Team I,"Mon 08:30 to 12:30, Wed 18:30 to 22:30","King, J. (2767); Ross, E. (3259)",GAD - Game Design,1 - Open,F-2019,0,24,24,8
+CCM131,15,10002,Basic 3D Concepts,Fri 13:30 to 17:30,"Wong, C. (1313)",CCM - Common Courses Media,1 - Open,F-2019,0,24,24,4
+CCM101,15,10002,Drawing & Perspective,Tue 13:30 to 17:30,"Burch, J. (3390)",CCM - Common Courses Media,1 - Open,F-2019,0,24,24,4
+CUL136,16,10001,Sustainable Purchasing & Controlling Costs,Wed 18:30 to 21:30,"Venida, C. (3391)",CUL - Culinary,1 - Open,F-2019,0,30,30,3
+CC133,16,10001,Digital Imaging,Thu 08:30 to 12:30,"Torrella, A. (000382)",CC - Common Courses,1 - Open,F-2019,0,24,24,4
+CCM111,16,10001,Design & Colour Theory,Thu 08:30 to 12:30,"Romain, V. (1014)",CCM - Common Courses Media,1 - Open,F-2019,0,24,24,4
+CCM100,17,10001,Introduction to Digital Arts,Mon 13:30 to 17:30,"Farrington, T. (3101)",CCM - Common Courses Media,1 - Open,F-2019,0,24,24,4
+CUL115,17,81129,Nutrition,Mon 18:00 to 21:00,"Saberi, M. (3190)",CUL - Culinary,1 - Open,F-2019,0,24,24,3
+ART103,17,10002,History of Art II: From the Early Modern to the Contemporary,Wed 08:30 to 12:30,"Romain, V. (1014)",LIBST - LIberal Studies,1 - Open,F-2019,0,24,24,4
+COM100,19,10002,Speech Communications,Mon 13:30 to 17:30,"Kis, Y. (3212)",LIBST - LIberal Studies,1 - Open,F-2019,0,24,24,4
+CUL132,19,10001,Management by Menu,Tue 08:30 to 11:30,"Saberi, M. (3190)",CUL - Culinary,1 - Open,F-2019,0,24,24,3
+CUL104,20,10001,Dimensions of Culinary,Fri 13:00 to 16:00,"Vial, M. (3235)",CUL - Culinary,1 - Open,F-2019,0,30,30,3
+CCM131,20,10001,Basic 3D Concepts,Tue 13:30 to 17:30,"Wong, C. (1313)",CCM - Common Courses Media,1 - Open,F-2019,0,24,24,4
+CCM121,20,10001,Digital Imaging I,Wed 08:30 to 12:30,"Winskell, P. (1060)",CCM - Common Courses Media,1 - Open,F-2019,0,24,24,4
+CCM101,23,10001,Drawing & Perspective,Mon 08:30 to 12:30,"Romain, V. (1014)",CCM - Common Courses Media,1 - Open,F-2019,0,24,24,4
+ART102,23,81117,History of Art I in Early Civilizations,Mon 18:00 to 19:30,"Taylor, J. (3018)",LIBST - LIberal Studies,1 - Open,F-2019,0,24,24,1.5
+CUL102,24,10001,Concepts & Theories of Culinary Techniques,Mon 08:00 to 12:00,"Gardiner, G. (1918)",CUL - Culinary,1 - Open,F-2019,0,30,30,4
+CUL103,27,10001,Sanitation & Safety,Wed 13:00 to 16:00,"Saberi, M. (3190)",CUL - Culinary,1 - Open,F-2019,0,30,30,3
+CC210,0,10002,Human Factors,Fri 08:00 to 12:00,,ID - Interior Design,1 - Open,P-2003,5,20,20,4
