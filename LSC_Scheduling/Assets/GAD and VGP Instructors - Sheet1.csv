@@ -1,0 +1,22 @@
+Last Name,First Name,ID,Course Preference,Courses Teaching Experience,Timeslots Available,Classes Limit
+Cue,Charles,3037,"""GAD320 Senior Project, GAD330 Critical Game Design,GAD323 Final Capstone Project, VGP101 Intro to Computer Programming""","""GAD320 Senior Project, GAD330 Critical Game Design,GAD323 Final Capstone Project, VGP101 Intro to Computer Programming""","""1,2,4,5,7,8,10,11,13,14""",4
+Bacon,Andy,,,"""VGP135 Intro to Mobile Programming, GADxxx Immersive Reality Design""","""13,14""",2
+Zampieri,Richard,,,"""GAD120 Scripting 1, GAD140 Scripting 2, VGP113 UML and Object Oriented Design, VGP430 Senior Project""","""3,6,9,12,15,16,17""",4
+Ross,Erik,,,"""CC449 Production Team 1, CC451 Production Team 2, GAD160 Scripting 3""","""3,6,9,12,15""",4
+King,James,,,"""CC449 Production Team 1, CC451 Production Team 2""","""6,9,12""",2
+Appleby,John,,,"""GAD100 History of Games, GAD110 Game Design 1, GAD205 UI/UX Design, GAD362 Portfolio 2""","""2,4,5,7,8,10,11,13,14""",4
+Williamson,Kayla,,,"""GAD271 Game Design for Platforms""","""6,9,12""",1
+Hill,Kevin,,"""GAD113 Free to Play Game Design, CC310 Preproduction and Project Management, CC449 Production Team 1, CC451 Production Team 2, CC452 Post Production""","""GAD113 Free to Play Game Design, CC452 Post Production""","""3,6,9,12,15""",2
+Casarini,Marcel,,,"""GAD130 Level Design 1,GAD230 Level Design 2, GAD253 Portfolio 1, GAD262 Advanced Game Design, GAD323 Final Capstone Project, CC452 Post Production""","""1,2,4,5,7,8,10,11,13,14""",5
+Azarcon,Mark,,,"""GAD230 Level Design 2, GAD322 Capstone Project""","""4,5,7,8,10,11""",4
+Dunnison,Ryan,,,"""GAD322 Capstone Project, GADxxx Mobile Game Design and Development""","""2,5,8,11,14""",2
+Xiong,Scott,,,"""GAD121 Minigames and Prototyping""","""12""",1
+Smedman,Lisa,,,"""GAD100 History of Games,GAD110 Game Design 1,GAD122 Game Design 2,GAD250 Game Design for Business,GAD262 Advanced Game Design,GAD222 Game Research and Critical Analysis, GADxxx Quest Design, GADxxx Narrative Design""","""1,2,7,8,10,11,13,14""",4
+Stevenson,Dustin,,,"""GAD262 Advanced Game Design,GAD362 Portfolio 2""","""3,6,9,12,15""",1
+Nezami,Reza,,,"""VGP246 Calculus for Physics,VGP256 Math and Physics for Games,VGP220 Algorithms and Data Patterns 1,VGP244 Algorithms and Data Patterns 2,VGP200 Portfolio 1,VGP440 Concurrency and Parallel Programming,VGP320 Database Programming""","""3,6,9,12,15,16,17,18""",4
+Hoac,Duong,,,"""VGP102 Object Oriented Programming C++ 1,VGP114 Software Development and Testing,VGP240 3D Graphics and Applications""","""3,6,9,12,15,16,17,18""",3
+Fernandes,Gustavo,,,"""VGP320 Database Programming""","""3,6,9,12,15,16,17""",1
+Wiedemann,Jon,,,"""VGP452 Senior Portfolio""","""3,6,9,12,15,16,17""",2
+Cheung,Lawrence,,,"""VGP233 Programming for Game Engines,VGP232 Game Tools and Pipelines,VGP130 Object Oriented Programming C++ 2,VGP125 Intro to C# Programming""","""6,9,12""",1
+Chan,Peter,,,"""VGP230 2D Games Programming,VGP336 Gameplay Programming,VGP453 Portfolio 2,VGP234 Artificial Intelligence,VGP242 3D Graphics Programming,VGP334 Animation for Games,VGP331 Network Programming,VGP330 Real Time GPU Programming""","""3,6,9,12,15,16,17""",4
+Faraji,Saeed,,,"""VGP126 Applied Mathematics,VGP128 Geometry and Linear Algebra,VGP248 Physics of Motion Light and Sound""","""1,2,4,5,7,8,10,11,13,14""",4
