@@ -38,13 +38,17 @@ public class ReadFaculty : MonoBehaviour
 
             if (true)
             {
-                print(results[0, x] + ", " + results[1, x] + " teaches: " + results[4, x] + " classes. Available at: " + results[5, x]);
+                //print(results[0, x] + ", " + results[1, x] + " teaches: " + results[4, x] + " classes. Available at: " + results[5, x]);
 
                 //Parse the faculty id
                 int facultyId = 0;
                 bool validId = int.TryParse(results[2, x], out facultyId);
                 if (!validId) facultyId = 0;
-                Faculty f = new Faculty(results[1, x], results[0, x], facultyId);
+
+                int courseCountLimit = 5;
+                bool validCourseCount = int.TryParse(results[6, x], out courseCountLimit);
+                if (!validCourseCount) courseCountLimit = 5;
+                Faculty f = new Faculty(results[1, x], results[0, x], facultyId, courseCountLimit);
                 
 
                 //Parse the class experience
@@ -78,17 +82,7 @@ public class ReadFaculty : MonoBehaviour
             }
         }
 
-        for(int i = 1; i <= 18; i++)
-        {
-            print("Faculty available on " + (Schedule)i + ": ");
-            foreach (Faculty f in faculties)
-            {
-                if(f.freeTimes.Contains((Schedule)i))
-                {
-                    print(f.firstName + " " + f.lastName);
-                }
-            }
-        }
+        //PrintFacultyFreeTimes();
         
 
         // 0 - First name
@@ -97,6 +91,22 @@ public class ReadFaculty : MonoBehaviour
         // 3 - Course Preference
         // 4 - Course Experience
         // 5 - Timeslots Available
+        // 6 - Course Count Limit
+    }
+
+    void PrintFacultyFreeTimes()
+    {
+        for (int i = 1; i <= 18; i++)
+        {
+            print("Faculty available on " + (Schedule)i + ": ");
+            foreach (Faculty f in faculties)
+            {
+                if (f.freeTimes.Contains((Schedule)i))
+                {
+                    print(f.firstName + " " + f.lastName);
+                }
+            }
+        }
     }
     
 }
@@ -109,12 +119,14 @@ public class Faculty
     public List<Course> coursePreferences;
     public List<Course> courseExperiences;
     public List<Schedule> freeTimes;
+    public int courseCountLimit;
 
-    public Faculty(string firstName, string lastName, int id)
+    public Faculty(string firstName, string lastName, int id, int courseCountLimit)
     {
         this.firstName = firstName;
         this.lastName = lastName;
         this.id = id;
+        this.courseCountLimit = courseCountLimit;
         this.coursePreferences = new List<Course>();
         this.courseExperiences = new List<Course>();
         this.freeTimes = new List<Schedule>();

@@ -86,17 +86,26 @@ public class ReadDemo : MonoBehaviour
         {
             //print(cp.c.code + " has " + cp.totalStudents + " students");
         }
+
+        //TODO: Adjust the course population predictor to predict the classes running next quarter (based from current quarter numbers)
+
+        List<CoursePopulation> gadBgpPopuations = new List<CoursePopulation>();
+        gadBgpPopuations.AddRange(gadCoursePopulation);
+        gadBgpPopuations.AddRange(bgpCoursePopulation);
+
+        //Save to DataManager
+        DataManager.Instance.UpdateCoursePopulations(gadBgpPopuations);
     }
 }
 
 public class CoursePopulation
 {
-    public Course c;
+    public Course course;
     public int totalStudents;
 
     public CoursePopulation(Course c, int totalStudents)
     {
-        this.c = c;
+        this.course = c;
         this.totalStudents = totalStudents;
     }
 }
