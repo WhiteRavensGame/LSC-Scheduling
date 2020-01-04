@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   courseName: Network Programming
   code: VGP331
+  program: BGP
   prereqs: []
   quarter: 10
   isDoubleClass: 0

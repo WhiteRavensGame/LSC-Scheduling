@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   courseName: Production 1
   code: CC449
+  program: GADBGP
   prereqs:
   - {fileID: 11400000, guid: 0b8481b25d309f74b99165275230ad6f, type: 2}
   quarter: 5

@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   courseName: Senior Project
   code: GAD320
+  program: GAD
   prereqs:
   - {fileID: 11400000, guid: b116351ea6f115946af1ddfe80740473, type: 2}
   quarter: 5

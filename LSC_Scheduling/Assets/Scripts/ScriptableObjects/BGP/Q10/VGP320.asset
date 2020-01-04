@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   courseName: Database Programming
   code: VGP320
+  program: BGP
   prereqs: []
   quarter: 10
   isDoubleClass: 0

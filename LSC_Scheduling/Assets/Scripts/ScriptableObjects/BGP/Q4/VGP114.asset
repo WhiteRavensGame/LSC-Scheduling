@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   courseName: Software Development and Testing
   code: VGP114
+  program: BGP
   prereqs: []
   quarter: 4
   isDoubleClass: 0

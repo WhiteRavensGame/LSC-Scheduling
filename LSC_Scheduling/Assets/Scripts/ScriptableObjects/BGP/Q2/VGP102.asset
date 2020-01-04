@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   courseName: Object Oriented Programming C++ 1
   code: VGP102
+  program: BGP
   prereqs: []
   quarter: 2
   isDoubleClass: 1

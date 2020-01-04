@@ -14,6 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   courseName: Preproduction and Project Management
   code: CC310
-  prereq: 
+  program: GADBGP
+  prereqs: []
   quarter: 4
+  isDoubleClass: 0
   isElective: 0

@@ -12,6 +12,7 @@ public class InstructorToClassAssigner : MonoBehaviour
 
     List<FacultyCourseAssignment> facultyAssignedTracker;
     List<string> facultyAssignedTemp;
+    
 
     // Start is called before the first frame update
     void Start()
@@ -34,10 +35,12 @@ public class InstructorToClassAssigner : MonoBehaviour
         //SORT codes
         //List<Order> SortedList = objListOrder.OrderBy(o=>o.OrderDate).ToList();
         //List<Order> SortedList = objListOrder.OrderByDescending(o=>o.OrderDate).ToList();
-
-
+        gadBgpCourses = gadBgpCourses.OrderBy(o => o.course.code).ToList();
+        gadBgpCourses = gadBgpCourses.OrderBy(o => o.course.quarter).ToList();
+        
         foreach (CoursePopulation c in gadBgpCourses)
         {
+            //print(c.course.name + " " + c.course.quarter);
             facultyFoundForCourse = false;
 
             foreach(Faculty f in eligibleFaculties)
@@ -67,6 +70,8 @@ public class InstructorToClassAssigner : MonoBehaviour
             {
                 print("WARNING. No instructor found to teach " + c.course.code + " - " + c.course.courseName);
             }
+
+            
         }
 
         //PrintFacultyClassAssigned();

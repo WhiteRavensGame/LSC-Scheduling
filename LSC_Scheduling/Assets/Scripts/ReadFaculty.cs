@@ -14,6 +14,11 @@ public class ReadFaculty : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        Invoke("LateStart", 0.5f);
+    }
+
+    void LateStart()
+    {
         faculties = new List<Faculty>();
         gadBgpCourses = new List<Course>();
         gadBgpCourses.AddRange(DataManager.Instance.bgpCourses);
@@ -49,15 +54,15 @@ public class ReadFaculty : MonoBehaviour
                 bool validCourseCount = int.TryParse(results[6, x], out courseCountLimit);
                 if (!validCourseCount) courseCountLimit = 5;
                 Faculty f = new Faculty(results[1, x], results[0, x], facultyId, courseCountLimit);
-                
+
 
                 //Parse the class experience
-                string[] classExperiences = results[4,x].Split(',');
-                for(int j = 0; j < classExperiences.Length; j++)
+                string[] classExperiences = results[4, x].Split(',');
+                for (int j = 0; j < classExperiences.Length; j++)
                 {
                     foreach (Course course in gadBgpCourses)
                     {
-                        if ( classExperiences[j].Contains(course.code) )
+                        if (classExperiences[j].Contains(course.code))
                         {
                             f.AddCourseExperience(course);
                             break;
@@ -68,12 +73,12 @@ public class ReadFaculty : MonoBehaviour
 
                 //Parse the schedule availability
                 results[5, x] = results[5, x].Trim('"');
-                
+
                 string[] strTimes = results[5, x].Split(',');
                 int[] times = strTimes.Select(int.Parse).ToArray();
                 for (int j = 0; j < strTimes.Length; j++)
                 {
-                    f.AddFreeTime( (Schedule)times[j] );
+                    f.AddFreeTime((Schedule)times[j]);
                 }
 
                 //Add the final version of faculty to the master list.
@@ -83,7 +88,7 @@ public class ReadFaculty : MonoBehaviour
         }
 
         //PrintFacultyFreeTimes();
-        
+
 
         // 0 - First name
         // 1 - Last name
@@ -93,6 +98,8 @@ public class ReadFaculty : MonoBehaviour
         // 5 - Timeslots Available
         // 6 - Course Count Limit
     }
+
+    
 
     void PrintFacultyFreeTimes()
     {

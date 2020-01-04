@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   courseName: Capstone Project
   code: GAD322
+  program: GAD
   prereqs:
   - {fileID: 11400000, guid: 7050f0340e613a14abf9099357c9285b, type: 2}
   quarter: 6

@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   courseName: UI UX Design
   code: GAD205
+  program: GAD
   prereqs:
   - {fileID: 11400000, guid: 68f693ec1a9fd8e488c54e56bbe3269a, type: 2}
   - {fileID: 11400000, guid: 7a99332c7bea8cc47b7697b12ec05e1e, type: 2}

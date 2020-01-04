@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   courseName: Gameplay Programming
   code: VGP336
+  program: BGP
   prereqs: []
   quarter: 11
   isDoubleClass: 0

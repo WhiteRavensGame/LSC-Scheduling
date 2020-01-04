@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   courseName: Minigames and Prototyping
   code: GAD121
+  program: GAD
   prereqs:
   - {fileID: 11400000, guid: 0b978f6ed0aefa74c81d337a7ae599ed, type: 2}
   quarter: 2

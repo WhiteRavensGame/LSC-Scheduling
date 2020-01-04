@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   courseName: Scripting 2
   code: GAD140
+  program: GAD
   prereqs:
   - {fileID: 11400000, guid: e07feef6006279a4eb180d14ca574e7b, type: 2}
   quarter: 2

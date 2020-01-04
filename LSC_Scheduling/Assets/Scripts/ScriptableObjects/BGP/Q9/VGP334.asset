@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   courseName: Animation for Games
   code: VGP334
+  program: BGP
   prereqs: []
   quarter: 9
   isDoubleClass: 0

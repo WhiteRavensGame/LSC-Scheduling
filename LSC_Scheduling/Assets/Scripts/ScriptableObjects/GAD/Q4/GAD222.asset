@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   courseName: Game Research and Critical Analysis
   code: GAD222
+  program: GAD
   prereqs:
   - {fileID: 11400000, guid: 3e707dbda400ee54cb76e92861993b82, type: 2}
   quarter: 4

@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   courseName: Physics of Motion, Light, and Sound
   code: VGP248
+  program: BGP
   prereqs: []
   quarter: 4
   isDoubleClass: 0

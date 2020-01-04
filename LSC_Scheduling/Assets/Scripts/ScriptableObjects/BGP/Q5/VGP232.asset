@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   courseName: Game Tools and Pipelines
   code: VGP232
+  program: BGP
   prereqs: []
   quarter: 5
   isDoubleClass: 0

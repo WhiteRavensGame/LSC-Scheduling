@@ -7,6 +7,7 @@ public class Course : ScriptableObject
 {
     public string courseName;
     public string code;
+    public string program;
     public Course[] prereqs;
     public int quarter;
     public bool isDoubleClass;

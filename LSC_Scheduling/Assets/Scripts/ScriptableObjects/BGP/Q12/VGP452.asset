@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   courseName: Senior Project
   code: VGP452
+  program: BGP
   prereqs: []
   quarter: 12
   isDoubleClass: 0

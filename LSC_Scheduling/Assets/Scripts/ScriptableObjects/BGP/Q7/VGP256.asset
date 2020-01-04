@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   courseName: Math and Physics for Games
   code: VGP256
+  program: BGP
   prereqs: []
   quarter: 7
   isDoubleClass: 0

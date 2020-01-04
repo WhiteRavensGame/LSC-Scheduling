@@ -14,6 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   courseName: History of Games
   code: GAD100
-  prereq: 
+  program: GADBGP
+  prereqs: []
   quarter: 1
+  isDoubleClass: 0
   isElective: 0

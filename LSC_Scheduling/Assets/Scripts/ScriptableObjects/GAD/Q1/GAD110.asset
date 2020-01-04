@@ -14,6 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   courseName: Game Design 1
   code: GAD110
-  prereq: 
+  program: GADBGP
+  prereqs: []
   quarter: 1
+  isDoubleClass: 0
   isElective: 0

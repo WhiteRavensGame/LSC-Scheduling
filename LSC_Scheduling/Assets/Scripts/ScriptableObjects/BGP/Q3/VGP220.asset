@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   courseName: Algorithms and Data Patterns 1
   code: VGP220
+  program: BGP
   prereqs: []
   quarter: 3
   isDoubleClass: 0

@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   courseName: Programming for Game Engines
   code: VGP233
+  program: BGP
   prereqs: []
   quarter: 6
   isDoubleClass: 0

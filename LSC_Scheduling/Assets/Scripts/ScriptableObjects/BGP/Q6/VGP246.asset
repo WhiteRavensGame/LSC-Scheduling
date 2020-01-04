@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   courseName: Calculus for Physics
   code: VGP246
+  program: BGP
   prereqs: []
   quarter: 6
   isDoubleClass: 0

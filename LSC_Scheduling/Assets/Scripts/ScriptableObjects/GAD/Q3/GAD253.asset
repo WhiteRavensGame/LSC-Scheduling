@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   courseName: Portfolio 1
   code: GAD253
+  program: GAD
   prereqs:
   - {fileID: 11400000, guid: 34a9330dd284d1d498662cd6b8e669d0, type: 2}
   - {fileID: 11400000, guid: 137fd473c062cf043b72e2c02e4396e9, type: 2}

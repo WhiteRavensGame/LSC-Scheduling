@@ -14,7 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   courseName: Portfolio 1
   code: VGP201
+  program: BGP
   prereqs: []
-  quarter: 0
+  quarter: 8
   isDoubleClass: 0
   isElective: 0

@@ -14,6 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   courseName: Level Design 1
   code: GAD130
-  prereq: 
+  program: GADBGP
+  prereqs: []
   quarter: 1
+  isDoubleClass: 0
   isElective: 0

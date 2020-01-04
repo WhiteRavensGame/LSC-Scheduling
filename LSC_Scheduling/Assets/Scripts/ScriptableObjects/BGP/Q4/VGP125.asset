@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   courseName: Intro to C# Programming
   code: VGP125
+  program: BGP
   prereqs: []
   quarter: 4
   isDoubleClass: 0

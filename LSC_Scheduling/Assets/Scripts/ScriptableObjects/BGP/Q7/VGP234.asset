@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   courseName: Artificial Intelligence
   code: VGP234
+  program: BGP
   prereqs: []
   quarter: 7
   isDoubleClass: 0
