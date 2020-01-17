@@ -8,7 +8,8 @@ public class Course : ScriptableObject
     public string courseName;
     public string code;
     public string program;
-    public Course[] prereqs;
+    //public Course[] prereqs;
+    public List<Course> coursePrereqs;
     public int quarter;
     public bool isDoubleClass;
     public bool isElective;

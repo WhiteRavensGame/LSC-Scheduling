@@ -20,6 +20,11 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 137fd473c062cf043b72e2c02e4396e9, type: 2}
   - {fileID: 11400000, guid: 0b978f6ed0aefa74c81d337a7ae599ed, type: 2}
   - {fileID: 11400000, guid: 87ddcb20178cc42449978c180f62948e, type: 2}
+  coursePrereqs:
+  - {fileID: 11400000, guid: 34a9330dd284d1d498662cd6b8e669d0, type: 2}
+  - {fileID: 11400000, guid: 137fd473c062cf043b72e2c02e4396e9, type: 2}
+  - {fileID: 11400000, guid: 0b978f6ed0aefa74c81d337a7ae599ed, type: 2}
+  - {fileID: 11400000, guid: 87ddcb20178cc42449978c180f62948e, type: 2}
   quarter: 3
   isDoubleClass: 0
   isElective: 0

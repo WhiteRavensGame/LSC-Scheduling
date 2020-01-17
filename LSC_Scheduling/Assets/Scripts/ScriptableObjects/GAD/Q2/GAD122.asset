@@ -18,6 +18,9 @@ MonoBehaviour:
   prereqs:
   - {fileID: 11400000, guid: a8dc4e50a4c0ed54997b71e1acd90479, type: 2}
   - {fileID: 11400000, guid: 7a99332c7bea8cc47b7697b12ec05e1e, type: 2}
+  coursePrereqs:
+  - {fileID: 11400000, guid: a8dc4e50a4c0ed54997b71e1acd90479, type: 2}
+  - {fileID: 11400000, guid: 7a99332c7bea8cc47b7697b12ec05e1e, type: 2}
   quarter: 2
   isDoubleClass: 0
   isElective: 0

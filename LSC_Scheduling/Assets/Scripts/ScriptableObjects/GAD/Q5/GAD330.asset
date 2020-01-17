@@ -17,6 +17,8 @@ MonoBehaviour:
   program: GAD
   prereqs:
   - {fileID: 11400000, guid: 9eec17f6f80a78842be6eff71c562072, type: 2}
+  coursePrereqs:
+  - {fileID: 11400000, guid: 9eec17f6f80a78842be6eff71c562072, type: 2}
   quarter: 5
   isDoubleClass: 0
   isElective: 0
