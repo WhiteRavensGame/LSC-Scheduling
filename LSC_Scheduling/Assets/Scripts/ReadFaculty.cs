@@ -51,7 +51,8 @@ public class ReadFaculty : MonoBehaviour
                 if (!validId) facultyId = 0;
 
                 int courseCountLimit = 5;
-                bool validCourseCount = int.TryParse(results[6, x], out courseCountLimit);
+                //bool validCourseCount = int.TryParse(results[6, x], out courseCountLimit);
+                bool validCourseCount = int.TryParse(results[7, x], out courseCountLimit);
                 if (!validCourseCount) courseCountLimit = 5;
                 Faculty f = new Faculty(results[1, x], results[0, x], facultyId, courseCountLimit);
 
@@ -75,6 +76,7 @@ public class ReadFaculty : MonoBehaviour
                 results[5, x] = results[5, x].Trim('"');
 
                 string[] strTimes = results[5, x].Split(',');
+                print(results[5, x]);
                 int[] times = strTimes.Select(int.Parse).ToArray();
                 for (int j = 0; j < strTimes.Length; j++)
                 {

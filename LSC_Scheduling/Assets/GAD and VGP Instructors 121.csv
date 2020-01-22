@@ -1,0 +1,23 @@
+Last Name,First Name,ID,Course Preference,Courses Teaching Experience,Timeslots Available,Timeslots Preferred,Classes Limit
+Cue,Charles,3037,""" VGP101 Intro to Computer Programming, GAD320 Senior Project, GAD330 Critical Game Design,GAD323 Final Capstone Project""","""GAD320 Senior Project, GAD330 Critical Game Design,GAD323 Final Capstone Project, VGP101 Intro to Computer Programming""","""1,2,4,5,7,8,10,11,13,14""","""4,5,7,8,10,2""",5
+Zampieri,Richard,3266,,"""GAD120 Scripting 1, GAD140 Scripting 2, VGP430 Senior Project""","""3,9,12,16,17""","""3,12,16,17""",4
+Cheung,Lawrence,3109,,"""VGP232 Game Tools and Pipelines,VGP233 Programming for Game Engines,VGP130 Object Oriented Programming C++ 2,VGP125 Intro to C# Programming""","""12""","""12""",1
+Chan,Peter,1753,,"""VGP230 2D Games Programming,VGP336 Gameplay Programming,VGP453 Portfolio 2,VGP234 Artificial Intelligence,VGP242 3D Graphics Programming,VGP334 Animation for Games,VGP331 Network Programming,VGP330 Real Time GPU Programming""","""3,6,9,12,15,16,17""","""6,9,12,16,17""",4
+Dunnison,Ryan,2975,"""GAD100 History of Games, GAD153 Portfolio I""","""GAD322 Capstone Project, GADxxx Mobile Game Design and Development, GAD100 History of Games""","""2,3""","""2""",2
+Smedman,Lisa,2126,,"""GAD100 History of Games,GAD110 Game Design 1,GAD122 Game Design 2,GAD250 Game Design for Business,GAD262 Advanced Game Design,GAD222 Game Research and Critical Analysis, GADxxx Quest Design, GADxxx Narrative Design""","""7,8,10,11,13,14""","""7,8,10,13""",4
+Nezami,Reza,2601,,"""VGP246 Calculus for Physics,VGP256 Math and Physics for Games,VGP220 Algorithms and Data Patterns 1,VGP244 Algorithms and Data Patterns 2,VGP200 Portfolio 1,VGP440 Concurrency and Parallel Programming,VGP320 Database Programming""","""3,6,9,12,15,16,17""","""6,9,12,17""",4
+Fernandes,Gustavo,3398,,"""VGP320 Database Programming, VGP125 C# Programming""","""3,6,9,12,16""","""6,12""",2
+Lacey,Craig,3064,,"""VGP125 C# Programming, VGP233 Programming for Game Engines""","""6,9,12""","""6,9,12""",1
+Bacon,Andy,2706,,"""VGP135 Intro to Mobile Programming, GADxxx Immersive Reality Design""","""1,2,4,5,7,8,10,11""","""1,4,7,10""",3
+Ross,Erik,3259,,"""CC449 Production Team 1, CC451 Production Team 2, GAD160 Scripting 3""","""1,2,4,7,8,10,13""","""1,4,7,10,13""",3
+King,James,2767,,"""CC449 Production Team 1, CC451 Production Team 2""","""3,9""","""3,9""",2
+Williamson,Kayla,3346,,"""GAD271 Game Design for Platforms""","""9,12""","""12""",1
+Casarini,Marcel,3182,,"""GAD130 Level Design 1,GAD230 Level Design 2, GAD253 Portfolio 1, GAD262 Advanced Game Design, GAD323 Final Capstone Project, CC452 Post Production""","""1,2,4,5,7,8,13,14""","""1,4,5,8,14""",5
+Xiong,Scott,2664,,"""GAD121 Minigames and Prototyping""","""9""","""9""",1
+Hill,Kevin,3173,"""GAD113 Free to Play Game Design, CC310 Preproduction and Project Management, CC449 Production Team 1, CC451 Production Team 2, CC452 Post Production""","""GAD113 Free to Play Game Design, CC452 Post Production""","""6,9,12""","""6,9,12""",2
+Hoac,Duong,5555,,"""VGP114 Software Development and Testing,VGP240 3D Graphics and Applications, VGP102 Object Oriented Programming C++ 1""","""12""","""12""",1
+Appleby,John,,,"""GAD100 History of Games, GAD110 Game Design 1, GAD205 UI/UX Design, GAD362 Portfolio 2""","""1,2,4,5,7,8,10,11,13,14""","""1,2,4,5,7,8,10,11,13,14""",4
+Azarcon,Mark,,,"""GAD230 Level Design 2, GAD322 Capstone Project""","""1,2,4,5,7,8,10,11,13,14""","""1,2,4,5,7,8,10,11,13,14""",4
+Faraji,Saeed,,,"""VGP126 Applied Mathematics,VGP128 Geometry and Linear Algebra,VGP248 Physics of Motion Light and Sound""","""1,2,4,5,7,8,10,11,13,14""","""1,2,4,5,7,8,10,11,13,14""",4
+Wiedemann,Jon,0,,"""VGP452 Senior Portfolio""","""3,6,9,12,15,16,17""","""3,6,9,12,15,16,17""",0
+Stevenson,Dustin,,,"""GAD262 Advanced Game Design,GAD362 Portfolio 2""","""3,6,9,12,15""","""3,6,9,12,15""",1
