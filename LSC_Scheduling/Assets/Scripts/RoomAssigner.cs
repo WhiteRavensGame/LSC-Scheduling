@@ -8,6 +8,10 @@ public class RoomAssigner : MonoBehaviour
     [Header("UI")]
     public Text roomNumberText;
     public ClassSchedBlockUI[] schedBlocks;
+    public InputField qtrField;
+    public Toggle gadToggle;
+    public Toggle vgpToggle;
+
     int index = 0;
     
     List<Classroom> classrooms;
@@ -58,6 +62,8 @@ public class RoomAssigner : MonoBehaviour
             else
                 classBlocksLeft = 1;
 
+            classroomAssignSuccess = false;
+
             //Assign that faculty into one classroom.
             foreach (Classroom classroom in classrooms)
             {
@@ -83,17 +89,20 @@ public class RoomAssigner : MonoBehaviour
                     }
                 }
 
-                if (classBlocksLeft != 0) print("WARNING. Second+ class for " + fca.coursePopulation.course.code + " not assigned!");
+                if (classroomAssignSuccess)
+                    break;                
 
-                if (classroomAssignSuccess) break;
             }
 
             if(!classroomAssignSuccess)
             {
                 print("ROOM WARNING. No room for: " + fca.faculty.lastName + " " + fca.faculty.firstName + " to teach " + fca.coursePopulation.course.code);
             }
+            else if(classBlocksLeft == 1 && fca.coursePopulation.course.isDoubleClass)
+            {
+                print("WARNING. Second+ class for " + fca.coursePopulation.course.code + " not assigned!");
+            }
 
-            classroomAssignSuccess = false;
         }
 
         //Print out all the classrooms and whoever teaches there:
@@ -115,7 +124,16 @@ public class RoomAssigner : MonoBehaviour
         roomNumberText.text = classroom.room.number.ToString();
         for(int i = 0; i < 18; i++)
         {
-            schedBlocks[i].UpdateInformation(classroom.sched[i]);
+            if(classroom.sched[i] == null)
+                schedBlocks[i].UpdateInformation(classroom.sched[i], Color.clear);
+            else if( classroom.sched[i].coursePopulation.course.program.Contains("GAD") && gadToggle.isOn )
+                schedBlocks[i].UpdateInformation(classroom.sched[i], Color.green);
+            else if(classroom.sched[i].coursePopulation.course.program.Contains("VGP") && vgpToggle.isOn )
+                schedBlocks[i].UpdateInformation(classroom.sched[i], Color.cyan);
+            else if (classroom.sched[i].coursePopulation.course.program.Contains("BGP") && vgpToggle.isOn)
+                schedBlocks[i].UpdateInformation(classroom.sched[i], Color.blue);
+            else
+                schedBlocks[i].UpdateInformation(classroom.sched[i], Color.white);
         }
     }
 

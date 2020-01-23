@@ -73,14 +73,28 @@ public class ReadFaculty : MonoBehaviour
                 }
 
                 //Parse the schedule availability
-                results[5, x] = results[5, x].Trim('"');
 
-                string[] strTimes = results[5, x].Split(',');
-                print(results[5, x]);
+                //TEMP!!! QQQQQQ
+                //results[5, x] = results[5, x].Trim('"');
+                //string[] strTimes = results[5, x].Split(',');
+
+                results[6, x] = results[6, x].Trim('"');
+                string[] strTimes = results[6, x].Split(',');
+
                 int[] times = strTimes.Select(int.Parse).ToArray();
                 for (int j = 0; j < strTimes.Length; j++)
                 {
                     f.AddFreeTime((Schedule)times[j]);
+                }
+
+                //Parse the schedule preferred
+                results[6, x] = results[6, x].Trim('"');
+
+                string[] strTimes2 = results[6, x].Split(',');
+                int[] times2 = strTimes2.Select(int.Parse).ToArray();
+                for (int j = 0; j < strTimes2.Length; j++)
+                {
+                    f.AddFreeTimePreferred((Schedule)times2[j]);
                 }
 
                 //Add the final version of faculty to the master list.
@@ -98,7 +112,8 @@ public class ReadFaculty : MonoBehaviour
         // 3 - Course Preference
         // 4 - Course Experience
         // 5 - Timeslots Available
-        // 6 - Course Count Limit
+        // 6 - Timeslots Preferred
+        // 7 - Course Count Limit
     }
 
     
@@ -128,6 +143,7 @@ public class Faculty
     public List<Course> coursePreferences;
     public List<Course> courseExperiences;
     public List<Schedule> freeTimes;
+    public List<Schedule> freeTimesPreferred;
     public int courseCountLimit;
 
     public Faculty(string firstName, string lastName, int id, int courseCountLimit)
@@ -139,6 +155,7 @@ public class Faculty
         this.coursePreferences = new List<Course>();
         this.courseExperiences = new List<Course>();
         this.freeTimes = new List<Schedule>();
+        this.freeTimesPreferred = new List<Schedule>();
     }
 
     public void AddCoursePreference(Course c)
@@ -152,5 +169,9 @@ public class Faculty
     public void AddFreeTime(Schedule s)
     {
         this.freeTimes.Add(s);
+    }
+    public void AddFreeTimePreferred(Schedule s)
+    {
+        this.freeTimesPreferred.Add(s);
     }
 }

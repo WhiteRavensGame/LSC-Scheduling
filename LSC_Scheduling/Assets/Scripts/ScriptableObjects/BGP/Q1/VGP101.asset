@@ -15,7 +15,7 @@ MonoBehaviour:
   courseName: Intro to C Programming
   code: VGP101
   program: BGP
-  prereqs: []
+  coursePrereqs: []
   quarter: 1
   isDoubleClass: 1
   isElective: 0

@@ -23,7 +23,7 @@ public class ClassSchedBlockUI : MonoBehaviour
         
     }
 
-    public void UpdateInformation(FacultyCourseAssignment fca)
+    public void UpdateInformation(FacultyCourseAssignment fca, Color col)
     {
         if (fca == null)
         {
@@ -35,7 +35,7 @@ public class ClassSchedBlockUI : MonoBehaviour
         {
             instructorText.text = fca.faculty.lastName + ", " + fca.faculty.firstName[0];
             classText.text = fca.coursePopulation.course.code + "\n " + fca.coursePopulation.course.courseName;
-            fillImage.color = Color.white;
+            fillImage.color = col;
         }
 
         

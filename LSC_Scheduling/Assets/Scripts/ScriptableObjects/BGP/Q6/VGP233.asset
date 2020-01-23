@@ -15,7 +15,7 @@ MonoBehaviour:
   courseName: Programming for Game Engines
   code: VGP233
   program: BGP
-  prereqs: []
+  coursePrereqs: []
   quarter: 6
   isDoubleClass: 0
   isElective: 0

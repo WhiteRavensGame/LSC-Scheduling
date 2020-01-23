@@ -36,7 +36,7 @@ public class InstructorToClassAssigner : MonoBehaviour
         //List<Order> SortedList = objListOrder.OrderBy(o=>o.OrderDate).ToList();
         //List<Order> SortedList = objListOrder.OrderByDescending(o=>o.OrderDate).ToList();
         gadBgpCourses = gadBgpCourses.OrderBy(o => o.course.code).ToList();
-        gadBgpCourses = gadBgpCourses.OrderBy(o => o.course.quarter).ToList();
+        gadBgpCourses = gadBgpCourses.OrderByDescending(o => o.course.quarter).ToList();
         
         foreach (CoursePopulation c in gadBgpCourses)
         {
@@ -50,8 +50,7 @@ public class InstructorToClassAssigner : MonoBehaviour
                 int count = facultyAssignedTemp.Count(s => s == f.firstName);
                 //print(count);
 
-                if (count < 4 && f.courseExperiences.Contains(c.course))
-                //if (count < f.courseCountLimit && f.courseExperiences.Contains(c))
+                if (count < f.courseCountLimit && f.courseExperiences.Contains(c.course))
                 {
                     FacultyCourseAssignment facultyCourseCombo = new FacultyCourseAssignment(f, c);
                     facultyAssignedTracker.Add(facultyCourseCombo);

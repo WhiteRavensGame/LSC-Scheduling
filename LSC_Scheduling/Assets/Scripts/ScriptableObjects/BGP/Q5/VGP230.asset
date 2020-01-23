@@ -15,7 +15,7 @@ MonoBehaviour:
   courseName: 2D Games Programming
   code: VGP230
   program: BGP
-  prereqs: []
+  coursePrereqs: []
   quarter: 5
   isDoubleClass: 0
   isElective: 0
